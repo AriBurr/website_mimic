@@ -1,0 +1,38 @@
+body {
+  background-color: grey;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#menu {
+  padding-right: 10%;
+  border: 2px dashed black;
+}
+
+.info {
+  text-align: center;
+  width: 50%;
+  padding: 1%;
+}
+
+#about {
+  border-right: 5px solid black;
+}
+
+#hours ul {
+  list-style: none;
+}

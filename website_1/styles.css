@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header {
+  background-color: lightcyan;
+  border: 1px solid blue;
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+}
+
+table {
+  background-color: lightgray;
+  border-collapse: separate;
+  text-align: center;
+  width: 90%;
+  margin: 3%;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+.list {
+  width: 100%;
+}
+
+.list-title {
+  text-align: center;
+}
+
+.shapes {
+  height: 150px;
+  width: 150px;
+  margin: 5%;
+}
+
+#green-circle {
+  background-color: green;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+
+#purple-square {
+  background-color: purple;
+  border: 3px solid #000;
+}
+
+#rabbit {
+  border: 3px solid blue;
+  background: url(http://www.animalspot.net/wp-content/uploads/2013/02/Rabbit-Images.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+}
